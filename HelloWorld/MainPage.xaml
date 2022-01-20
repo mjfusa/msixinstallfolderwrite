@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="HelloWorld.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWorld"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Hello World" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Version: " Margin="0,0,10,0"/>
+            <TextBlock x:Name="tbVersion" Text="" />
+        </StackPanel>
+    </StackPanel>
+</Page>
