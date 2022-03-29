@@ -8,8 +8,8 @@
 
   <Identity
     Name="bf600f2c-c70b-420a-bea6-62e15e689677"
-    Publisher="CN=mikefra"
-    Version="1.0.1.0" />
+    Publisher="CN=Michael Francis, O=Michael Francis, L=Auburn, S=Washington, C=US"
+    Version="1.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="bf600f2c-c70b-420a-bea6-62e15e689677" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
