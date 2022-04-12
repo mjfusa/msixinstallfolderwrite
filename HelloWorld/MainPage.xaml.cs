@@ -31,7 +31,7 @@ namespace HelloWorld
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            tbVersion.Text = $"{Package.Current.Id.Version.Major}.{Package.Current.Id.Version.Minor}.{Package.Current.Id.Version.Revision}.{Package.Current.Id.Version.Build}";
+            tbVersion.Text = $"{Package.Current.Id.Version.Major}.{Package.Current.Id.Version.Minor}.{Package.Current.Id.Version.Build}.{Package.Current.Id.Version.Revision}";
         }
     }
 }
