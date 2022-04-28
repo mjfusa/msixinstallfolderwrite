@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <TextBlock Text="Hello World" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
+        <TextBlock Text="Hello MSIX World" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="Version: " Margin="0,0,10,0"/>
             <TextBlock x:Name="tbVersion" Text="" />

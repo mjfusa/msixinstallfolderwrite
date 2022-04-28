@@ -9,7 +9,7 @@
   <Identity
     Name="Hello.MSIX.World"
     Publisher="CN=76F03FF0-6FBC-4475-8F1A-617EA5713D5C"
-    Version="1.0.1.0" />
+    Version="1.0.2.0" />
 
   <Properties>
     <DisplayName>Hello MSIX World</DisplayName>
