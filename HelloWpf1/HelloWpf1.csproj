@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PackageIcon>R.png</PackageIcon>
+    <ApplicationIcon>Icon\R.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icon\R.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icon\R.ico" />
+  </ItemGroup>
+
+</Project>

@@ -48,6 +48,31 @@ namespace HelloWpf
 
         }
 
+        private async void Button_Click1(object sender, RoutedEventArgs e)
+        {
+            var accessStatus = await Geolocator.RequestAccessAsync();
+            switch (accessStatus)
+            {
+                case GeolocationAccessStatus.Allowed:
+
+                    // If DesiredAccuracy or DesiredAccuracyInMeters are not set (or value is 0), DesiredAccuracy.Default is used.
+                    Geolocator geolocator = new Geolocator();
+
+                    // Carry out the operation.
+                    Geoposition pos = await geolocator.GetGeopositionAsync();
+
+                    tbLocation.Text = $"{pos.Coordinate.Latitude} : {pos.Coordinate.Longitude}";
+                    break;
+
+                case GeolocationAccessStatus.Denied:
+                    tbLocation.Text = $"Access denied";
+                    break;
+
+                case GeolocationAccessStatus.Unspecified:
+                    break;
+            }
+        }
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             var p = Package.Current.InstalledLocation.Path;

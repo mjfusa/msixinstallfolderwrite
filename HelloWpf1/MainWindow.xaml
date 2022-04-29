@@ -13,7 +13,7 @@
             <TextBlock x:Name="tbVersion" Text="" />
         </StackPanel>
          <StackPanel Orientation="Horizontal">
-            <TextBlock Text="File contents: " Margin="0,0,10,0"/>
+            <TextBlock Text="Location: " Margin="0,0,10,0"/>
             <TextBlock x:Name="tbLocation" Text="" />
          </StackPanel>
         <Button Content="Write" Click="Button_Click"/>
